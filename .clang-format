@@ -1,0 +1,52 @@
+# Use Google C++ Style
+BasedOnStyle: Google
+
+# C++ standard
+Language: Cpp
+
+# Indentation
+IndentWidth: 2           # Google prefers 2 spaces per indent
+TabWidth: 2
+UseTab: Never
+
+# Braces and blocks
+AllowShortFunctionsOnASingleLine: InlineOnly
+AllowShortIfStatementsOnASingleLine: false
+BreakBeforeBraces: Allman
+BraceWrapping:
+  AfterClass: true
+  AfterControlStatement: true
+  AfterEnum: true
+  AfterFunction: true
+  AfterNamespace: true
+  AfterStruct: true
+  AfterUnion: true
+  BeforeCatch: true
+  BeforeElse: true
+  IndentBraces: false
+
+# Spaces
+SpaceBeforeParens: ControlStatements
+SpaceAfterCStyleCast: true
+SpaceAfterTemplateKeyword: true
+SpaceBeforeAssignmentOperators: true
+SpacesInParentheses: false
+SpacesInContainerLiterals: false
+
+# Column limits
+ColumnLimit: 140
+
+# Pointers and references
+PointerAlignment: Left
+DerivePointerAlignment: false
+
+# Alignments
+AlignConsecutiveAssignments: false
+AlignConsecutiveDeclarations: false
+AlignOperands: true
+AlignTrailingComments: true
+
+# Other
+AllowAllParametersOfDeclarationOnNextLine: false
+ConstructorInitializerAllOnOneLineOrOnePerLine: true
+ReflowComments: true
